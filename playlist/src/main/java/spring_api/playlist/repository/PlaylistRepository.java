@@ -2,7 +2,8 @@ package spring_api.playlist.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import spring_api.playlist.model.Playlist;
 
 @Repository
-public interface Playlist extends JpaRepository<Playlist, Long> {
+public interface PlaylistRepository extends JpaRepository<Playlist, Long> {
 }
